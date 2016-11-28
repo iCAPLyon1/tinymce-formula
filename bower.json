@@ -1,6 +1,6 @@
 {
   "name": "tinymce-formula",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Formula plugin for tinyMCE WYSIWYG editor. Allows user to add equations and formulas inside tinyMCE",
   "main": "plugin.js",
   "authors": [
