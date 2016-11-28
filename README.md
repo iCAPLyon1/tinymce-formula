@@ -25,7 +25,7 @@ bower install tinymce-formula
 Install using npm.
 
 ```
-npm install tinymce-mention
+npm install tinymce-formula
 ```
 
 Or copy the source of the plugin to the plugins directory of your tinyMCE installation.
