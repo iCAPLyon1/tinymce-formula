@@ -13,7 +13,6 @@ Formula plugin for tinyMCE WYSIWYG editor. Allows user to add equations and form
 ##Dependencies
 
 * [tinyMCE](http://www.tinymce.com/)
-* [jQuery](http://jquery.com/)
 
 ##Usage
 
