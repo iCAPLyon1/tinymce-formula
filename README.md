@@ -35,6 +35,21 @@ Add the formula plugin to your tinyMCE configuration
 plugins: "... formula",
 ```
 
+Add configuration options for the formula plugin. `path` is the only setting and is optional.
+
+```javascript
+formula: {
+    path: 'path/to/public/plugin/folder'
+},
+```
+
+##Configuration
+
+###path (optional if plugin installed inside `tinymce/plugins` folder, required otherwise)
+
+If you have installed the plugin in a different folder than the ```tinymce/plugins``` folder then you need to specify 
+the path (public) where the plugin is installed.
+
 ##License
 
 MIT licensed

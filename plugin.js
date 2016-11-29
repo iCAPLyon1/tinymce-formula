@@ -1,10 +1,12 @@
 (function(tinymce){
   tinymce.create('tinymce.plugins.Formula', {
     init: function(editor, url) {
+      var options = editor.getParam('formula') || {};
+      var path = options.path || url;
       editor.addButton('formula', {
-        image: url + '/img/formula.png',
+        image: path + '/img/formula.png',
         tooltip: 'Insert Formula',
-        onclick: showFormulaDialog.bind(this, editor, url),
+        onclick: showFormulaDialog.bind(this, editor, path),
         onPostRender: function() {
           var _this = this;   // reference to the button itself
           editor.on('NodeChange', function(e) {
