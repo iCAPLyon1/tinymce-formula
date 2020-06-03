@@ -1,8 +1,8 @@
-#tinyMCE formula plugin
+# tinyMCE formula plugin
 
 Formula plugin for tinyMCE WYSIWYG editor. Allows user to add equations and formulas inside tinymce.
 
-##Browser compatibility
+## Browser compatibility
 
 * IE8+
 * Chrome
@@ -10,11 +10,11 @@ Formula plugin for tinyMCE WYSIWYG editor. Allows user to add equations and form
 * Safari
 * Opera
 
-##Dependencies
+## Dependencies
 
 * [tinyMCE](http://www.tinymce.com/)
 
-##Usage
+## Usage
 
 Install using bower.
 
@@ -43,14 +43,14 @@ formula: {
 },
 ```
 
-##Configuration
+## Configuration
 
-###path (optional if plugin installed inside `tinymce/plugins` folder, required otherwise)
+### path (optional if plugin installed inside `tinymce/plugins` folder, required otherwise)
 
 If you have installed the plugin in a different folder than the ```tinymce/plugins``` folder then you need to specify 
 the path (public) where the plugin is installed.
 
-##License
+## License
 
 MIT licensed
 
